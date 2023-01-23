@@ -17,6 +17,14 @@
 }
 
 .descrizione {
+    background-color: rgb(248, 130, 232);
+}
+
+.immagine {
+    background-color: rgb(40, 123, 247);
+}
+
+.testo {
     background-color: pink;
 }
 
@@ -33,9 +41,6 @@
     align-items: center;
 }
 
-.container {
-    display: flex;
-}
 
 .links{
     background-color: rgb(247, 160, 55);
@@ -66,5 +71,41 @@
     text-align: center;
     margin: auto;
     margin-top: 40px;
+}
 
+.primo {
+    min-height: 500 px;
+    background-color: white;
+}
+
+.secondo {
+    min-height: 500 px;
+    background-color: grey;
+}
+
+.strumenti {
+    width: 60%;
+    margin: auto;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.strumenti2 {
+    width: 60%;
+    margin: auto;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.immagine {
+    width: 60%;
+    height: 350px;
+}
+
+.testo {
+    width: 40%;
+    height: 350px;
 }
