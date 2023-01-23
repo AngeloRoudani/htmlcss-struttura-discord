@@ -32,6 +32,13 @@
     background-color: green;
 }
 
+.alfa {
+    background-color: rgb(238, 132, 150);
+}
+
+.beta {
+    background-color: rgb(17, 192, 177);
+}
 /*debug*/
 
 .container {
@@ -126,3 +133,26 @@
     text-align: center;
     margin: auto;
 }
+
+.footer_up {
+    background-color: rgb(37, 37, 37);
+    min-height: 500px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer_top{
+    width: 60%;
+    align-content: center;
+}
+
+.alfa {
+    width: calc(100% / 3);
+    height: 400px;
+}
+
+.beta {
+    width: calc(100% / 6);
+    height: 400px;
+}
+
