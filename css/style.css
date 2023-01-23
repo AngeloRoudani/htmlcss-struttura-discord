@@ -39,6 +39,14 @@
 .beta {
     background-color: rgb(17, 192, 177);
 }
+
+.footer_down {
+    background-color: aquamarine;
+}
+
+.logo1, .bottone {
+    background-color: rgb(253, 170, 205);
+}
 /*debug*/
 
 .container {
@@ -156,3 +164,24 @@
     height: 400px;
 }
 
+.footer_bottom {
+    background-color: rgb(37, 37, 37);
+    height: 60px;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer_down {
+    height: 50px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1, .bottone {
+    min-height: 20px;
+    display:inline-block;
+    padding: 4px;
+
+}
