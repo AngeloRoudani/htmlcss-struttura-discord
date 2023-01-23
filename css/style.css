@@ -28,6 +28,10 @@
     background-color: pink;
 }
 
+.quadrato {
+    background-color: green;
+}
+
 /*debug*/
 
 .container {
@@ -80,7 +84,13 @@
 
 .secondo {
     min-height: 500 px;
-    background-color: grey;
+    background-color: lightgrey;
+}
+
+.terzo {
+    min-height: 800px;
+    background-color: lightgrey;
+    padding-top: 50px;
 }
 
 .strumenti {
@@ -108,4 +118,11 @@
 .testo {
     width: 40%;
     height: 350px;
+}
+
+.quadrato {
+    width: 60%;
+    height: 700px;
+    text-align: center;
+    margin: auto;
 }
