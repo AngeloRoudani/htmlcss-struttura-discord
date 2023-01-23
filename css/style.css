@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*debug*/
+.links div {
+    border: dashed 2px black;
+}
+
+.container {
+    display: flex;
+}
+
+
+.top {
+    background-color: cyan;
+    min-height: 100px;
+    justify-content: center ;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+}
+
+.links{
+    background-color: rgb(247, 160, 55);
+    width: 60%;
+    justify-content: space-between;
+    height: 40px;
+    align-content: center;
+    align-items: stretch;
+}
+
+.logo, .login {
+    width: calc(100% / 4)
+    
+}
+
+.link {
+    width: calc(100% / 2);
+}
